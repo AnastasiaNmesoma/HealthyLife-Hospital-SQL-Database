@@ -9,7 +9,7 @@ A structured SQL database project designed to simulate daily operations in a hos
 > **Important Note**  
 > This project uses simulated data with custom logic (e.g., randomized dates, NULL GP assignments, specialty mappings).  
 > Some queries may return **no results** unless you understand how the data was generated.  
-> Please read the [`Documentation.md`](HealthyLife%20hospital%20SQL%Database%20Documentation) file for full context on running and interpreting the queries correctly.
+> Please read the [Documentation.md](HealthyLife%20hospital%20SQL%20Database%20Documentation.md) file for full context on running and interpreting the queries correctly.
 
 ## Project objectives
 
