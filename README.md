@@ -6,6 +6,11 @@
 
 A structured SQL database project designed to simulate daily operations in a hospital. This includes patient admissions, diagnoses, general practitioners (GPs), specialties, wards, and methods of admission. It also demonstrates analytical SQL queries for hospital management insights.
 
+> **Important Note**  
+> This project uses simulated data with custom logic (e.g., randomized dates, NULL GP assignments, specialty mappings).  
+> Some queries may return **no results** unless you understand how the data was generated.  
+> Please read the [`Documentation.md`](HealthyLife%20hospital%20SQL%Database%20Documentation) file for full context on running and interpreting the queries correctly.
+
 ## Project objectives
 
 - Record and track patient admissions.
@@ -31,7 +36,7 @@ A structured SQL database project designed to simulate daily operations in a hos
 | Diagnosis          | Diagnoses linked to specific admissions.         |
 
 Each table is populated with mock data to simulate real-world hospital data flow.
-All schemas and data setup are available in the [`HealthyLife Hospital.sql`](HealthyLife%20Hospitals.sql) file.
+All table creation, data population, and analytical queries are included in the [HealthyLife Hospital.sql](HealthyLife%20Hospitals.sql) file.
 
 ## Mock Data Highlights
 
@@ -58,7 +63,7 @@ GROUP BY gpp.PracticeName
 ORDER BY TotalAdmissions DESC;
 ```
 
-## Readmission Pattern (Within 7 Days). 
+## Readmission Pattern (Within 7 Days)
 > Track emergency readmissions occurring within 7 days of elective discharge, under the same specialty.
 
 ```sql
