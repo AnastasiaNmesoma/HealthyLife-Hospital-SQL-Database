@@ -96,3 +96,10 @@ All queries are written with performance and real-world logic in mind.
 - **Database**: SQL Server (T-SQL syntax)
 - **Tools Used**: SSMS (SQL Server Management Studio)
 - **Language**: SQL
+
+## Let’s Connect
+
+- [Read My Blog on Substack](https://substack.com/@theanalysisangle)
+- [Twitter](https://x.com/Anastasia_Nmeso)  
+- [FaceBook](https://www.facebook.com/share/16JoCo9x4F/)  
+- [LinkedIn](www.linkedin.com/in/anastasia-nmesoma-947b20317)
