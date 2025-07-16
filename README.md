@@ -31,7 +31,7 @@ A structured SQL database project designed to simulate daily operations in a hos
 | Diagnosis          | Diagnoses linked to specific admissions.         |
 
 Each table is populated with mock data to simulate real-world hospital data flow.
-All schemas and data setup are available in the [`HealthyLife Hospital.sql`](HealthyLife%20Hospital.sql) file.
+All schemas and data setup are available in the [`HealthyLife Hospital.sql`](HealthyLife%20Hospitals.sql) file.
 
 ## Mock Data Highlights
 
